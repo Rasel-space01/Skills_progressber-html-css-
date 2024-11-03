@@ -1,0 +1,68 @@
+ /* General styling for the skills section */
+ .skills-section {
+    background-color: #2c3e50;
+    padding: 30px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.skills-title {
+    text-align: center;
+    color: #43d313;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-decoration: underline;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for each column */
+.skills-column {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.skill-bar {
+    margin-bottom: 20px;
+}
+
+.skill-name {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f3f4f2;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+    height: 25px;
+}
+
+.progress {
+    background-color: #16c11c;
+    height: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 25px;
+    border-radius: 50px 0 0 50px;
+    transition: width 0.4s ease;
+}
+
+/* Optional subtle hover effect */
+.progress:hover {
+    background-color: #0cdb17;
+}
+
